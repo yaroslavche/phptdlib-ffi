@@ -1,0 +1,23 @@
+{
+    "name": "yaroslavche/phptdlib-ffi",
+    "description": "PHP FFI tdlib/td",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaroslavche",
+            "email": "yaroslav429@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-ffi": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TdLib\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
